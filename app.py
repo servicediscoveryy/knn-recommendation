@@ -8,7 +8,7 @@ app = Flask(__name__)
 recommender = ServiceRecommender()
 
 
-@app.route("/train", methods=["POST"])
+@app.route("/train", methods=["GET"])
 def train():
     try:
         service_data = recommender.load_data()
