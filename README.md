@@ -1,4 +1,4 @@
-## 🧠 What is a Recommendation System?
+ ## 🧠 What is a Recommendation System?
 
 A **recommendation system** is like a smart assistant. It watches what a user is doing — like searching, clicking, or booking — and then **suggests the best services** that the user might like next.
 
