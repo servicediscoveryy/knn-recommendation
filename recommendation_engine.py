@@ -9,7 +9,7 @@ import math
 from dotenv import load_dotenv
 import os
 load_dotenv()
-MONGO_URI = os.getenv("MONGODB_URI")
+MONGO_URI = "mongodb+srv://servicediscovery:%40Service2025@cluster0.pjqjt.mongodb.net"
 
 # Mock MongoDB connection (replace with your actual connection)
 client = pymongo.MongoClient(MONGO_URI)
